@@ -1,0 +1,168 @@
+html,
+body {
+    background-color: #ffeead;
+    margin: 120px;
+}
+
+.container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+    background: #feb72b;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(7, 60px);
+    grid-template-rows: repeat(3, 50px);
+    grid-gap: 5px;
+}
+
+.container div {}
+
+.gap {
+    grid-column: 6 / -1;
+    transition: .8s;
+}
+
+.container:hover .gap {
+    transform: translate3d(-20rem, 11rem, 0) rotate(15deg);
+    display: none;
+}
+
+.gap2 {
+    grid-column: 1 / 3;
+}
+
+.container:hover .gap2 {
+    transform: translate3d(18rem, 6rem, 0) rotate(36deg);
+    display: none;
+}
+
+.gap3 {
+    grid-column: 5 / -1;
+    transition: .5s;
+}
+
+.container:hover .gap3 {
+    transform: translate3d(-12rem, 5rem, 0) rotate(7deg);
+    display: none;
+}
+
+.e1 {
+    display: grid;
+    transition: .5s;
+}
+
+.container:hover .e1 {
+    transform: translate3d(-10rem, -9.5rem, 0) rotate(-326deg);
+}
+
+.m1 {
+    transition: .5s;
+}
+
+.container:hover .m1 {
+    transform: translate3d(-14rem, -4rem, 0) rotate(-61deg);
+}
+
+.r1 {
+    transition: .5s;
+}
+
+.container:hover .r1 {
+    transform: translate3d(11rem, -6rem, 0) rotate(-12deg);
+}
+
+.a1 {
+    transition: .5s;
+}
+
+.container:hover .a1 {
+    transform: translate3d(11rem, 3rem, 0) rotate(-17deg);
+}
+
+.n1 {
+    transition: .5s;
+}
+
+.container:hover .n1 {
+    transform: translate3d(29rem, -6rem, 0) rotate(-390deg);
+}
+
+
+
+.n2 {
+    transition: .5s;
+}
+
+.container:hover .n2 {
+    transform: translate3d(-10rem, -9.5rem, 0) rotate(-326deg);
+}
+
+.a2 {
+    transition: .5s;
+}
+
+.container:hover .a2 {
+    transform: translate3d(-17rem, 11.5rem, 0) rotate(342deg);
+}
+
+.z1 {
+    transition: .5s;
+}
+
+.container:hover .z1 {
+    transform: translate3d(-15rem, -8rem, 0) rotate(-6deg);
+}
+
+.i1 {
+    transition: .5s;
+}
+
+.container:hover .i1 {
+    transform: translate3d(-15rem, -1rem, 0) rotate(10deg);
+}
+
+.r2 {
+    transition: .5s;
+}
+
+.container:hover .r2 {
+    transform: translate3d(-13.5rem, 3.5rem, 0) rotate(-390deg);
+}
+
+.e2 {
+    transition: .5s;
+}
+
+.container:hover .e2 {
+    transform: translate3d(-24rem, 12.5rem, 0) rotate(-326deg);
+}
+
+.m2 {
+    transition: .5s;
+}
+
+.container:hover .m2 {
+    transform: translate3d(8rem, 8rem, 0) rotate(1111deg);
+}
+
+.o1 {
+    transition: .5s;
+}
+
+.container:hover .o1 {
+    transform: translate3d(11rem, -6rem, 0) rotate(-12deg);
+}
+
+.n3 {
+    transition: .5s;
+}
+
+.container:hover .n3 {
+    transform: translate3d(15rem, -12.5rem, 0) rotate(-390deg);
+}
